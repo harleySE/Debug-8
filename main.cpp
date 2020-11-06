@@ -6,9 +6,6 @@ class Mammals {
     string name;
     string location;
     // Set function
-    string getName(){
-      return this->name;
-    }
   public:
     // Constructor
     Mammals (string x, string y){
@@ -18,6 +15,9 @@ class Mammals {
     // Get function
     string getLoc(){
       return this->location;
+    }
+     string getName(){
+      return this->name;
     }
 };
 int main() {
